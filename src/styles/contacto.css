@@ -1,0 +1,88 @@
+.contacto-container {
+display: flex;
+flex-direction: column;
+}
+
+.contacto-texto {
+width: 50%;
+text-align: left;
+}
+.texto {
+color: #A6A6A6;
+font-size: 20px;
+}
+.formulario-contacto{
+display: flex;
+justify-content: space-between;
+}
+
+.redes-sociales {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.redes-sociales a{
+margin: 20px;
+}
+
+.rounded-icon:hover,
+.square-icon:hover {
+transform: scale(1.1); 
+color: #FFC331; 
+}
+
+.contact-form {
+width: 400px;
+padding: 20px;
+background-color: #f0f0f0;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}
+
+.contact-form label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: #615083;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 90%;
+padding: 10px;
+margin-bottom: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+outline: none;
+background-color: #d9d9e0;
+}
+
+.contact-form button {
+background-color: #FFC331;
+color: white;
+padding: 10px 20px;
+border-radius: 1rem;
+cursor: pointer;
+border: none;
+text-align: center;
+transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.contact-form button:hover {
+background-color: white;
+color: #FFC331;
+border: 0.08rem solid #FFC331;
+}
+
+.contact-form textarea {
+height: 230px;
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
